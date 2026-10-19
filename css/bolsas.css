@@ -90,3 +90,6 @@ body{background:var(--ink)}
 .cart-steps li.on{color:var(--plum);border-bottom-color:var(--plum-2)}
 
 @media (max-width:560px){.brand__logo{font-size:17px;letter-spacing:.12em;white-space:nowrap}.brand__sub{font-size:8.5px;letter-spacing:.2em}.topbar__in{gap:8px}}
+/* fotos quadradas (1:1) também no detalhe do produto */
+.car--p{aspect-ratio:1/1}
+.pm__gallery{padding-bottom:0}
